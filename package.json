@@ -1,0 +1,19 @@
+{
+  "name": "env-to-json",
+  "version": "0.0.1",
+  "description": "Convert Env Vars to JSON file",
+  "main": "src/index.js",
+  "scripts": {
+    "env-to-json": "env-to-json -i test/test.json -o test/test.env"
+  },
+  "bin": {
+    "env-to-json": "bin/cli.js"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "cli": "^0.11.2",
+    "commander": "^2.9.0",
+    "lodash": "^4.13.1",
+    "update-notifier": "^1.0.2"
+  }
+}
